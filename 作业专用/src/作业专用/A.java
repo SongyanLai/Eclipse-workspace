@@ -1,0 +1,20 @@
+package 作业专用;
+
+import java.util.ArrayList;
+
+public class A{
+
+	 public static void main(String[] args) throws Exception{
+		 ArrayList<String>al=newArrayList<String>();
+
+		 al.add(true);
+
+		 al.add(123);
+
+		 al.add(“abc”);
+
+		 System.out.println(al);
+}
+}
+
+

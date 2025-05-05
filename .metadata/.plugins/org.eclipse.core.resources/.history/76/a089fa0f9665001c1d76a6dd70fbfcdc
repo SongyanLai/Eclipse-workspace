@@ -1,0 +1,20 @@
+
+class test  { 
+
+public static void main (String  []  args)  {
+
+    boolean x= true;
+
+    boolean y=false;
+
+    short z=20;
+
+if((x==true)  &&  (y=true))  z++;
+
+       if((y==true) ||  (++z==22))  z++;
+
+System. out .println( "z="+z);
+
+}
+
+}

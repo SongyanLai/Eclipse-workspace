@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="删除资源“Luhn”" deleteContents="true" description="删除资源“Luhn”" element1="/Luhn" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1728048415147"/>&#x0A;<refactoring comment="删除资源“luhn”" deleteContents="true" description="删除资源“luhn”" element1="/luhn" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1728048463167"/>&#x0A;<refactoring comment="删除资源“124”" deleteContents="true" description="删除资源“124”" element1="/124" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1728048516252"/>
+</session>

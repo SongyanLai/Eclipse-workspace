@@ -1,0 +1,32 @@
+
+class test  { 
+
+	 public static void main(String[] args) {     
+
+	     int a=1,b[]={2};
+
+	     add(a);
+
+	     add(b);
+
+	     System.out.println(a+","+b[0]);    
+
+	  }
+
+	  static int add(int x){
+
+	     x++;
+
+	     return x;
+
+	  }
+
+	 static void add(int[] x){
+
+	    x[0]++;
+
+	 }
+
+}
+
+

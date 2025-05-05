@@ -1,0 +1,44 @@
+package 三角形;
+import java.util.Scanner;
+
+
+public class shanjiao {
+
+	public static void panduan(){
+		String a;
+		
+		try {
+			
+			System.out.println("请输入第二个数");
+			int y = scanner.nextInt();
+			System.out.println("请输入第三个数");
+			int z = scanner.nextInt();
+			if(x+y>z&&x+z>y&&y+z>x) {
+				a="三角形成立";
+				System.out.println("三角形成立");
+			}else{
+				a="不成立";
+				System.out.println("不成立");
+				}
+		} catch (Exception e) {
+			a="输入不合法";
+			System.out.println("输入不合法");
+		}
+	}
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		double a;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("判断三角形是否成立：");
+		System.out.println("请输入第一个数");
+		double x = scanner.nextInt();
+	 	if(x>0) {
+			a=x;
+		}else {
+			System.out.println("请重新输入");
+		}
+	
+	}
+}
+
+

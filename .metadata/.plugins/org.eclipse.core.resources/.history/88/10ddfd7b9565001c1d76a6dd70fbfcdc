@@ -1,0 +1,29 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		int x=2;
+		System.out.println(x=x>0?x+1:5);
+	}
+
+}
+class Test2   
+
+public static void main (String  []  args)  {
+
+    boolean x= true;
+
+    boolean y=false;
+
+    short z=20;
+
+if((x==true)  &&  (y=true))  z++;
+
+       if((y==true) ||  (++z==22))  z++;
+
+System. out .println( "z="+z);
+
+}
+
+}

@@ -1,0 +1,14 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		boolean x=false;
+		boolean y=true;
+		boolean z=(x&&y)&&(!y);
+		int f=z==false?1:2;
+		System.out.println(z);
+		System.out.println(f);
+	}
+
+}
