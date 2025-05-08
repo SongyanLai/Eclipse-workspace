@@ -1,9 +1,24 @@
+//SongyanLai CS402 Assignment
+//
+//50x50 Grid：#define N 50, initialized with rand()%2.
+//
+//Rules：alive counts neighbors, updates nxt via conditional checks.
+//
+//OpenMP Parallelism：#pragma omp parallel for collapse(2) parallelizes loops, double buffering (cur/nxt) avoids race conditions.
+//
+//Consistency：Identical final grids for 1/8 threads (guaranteed by pointer swapping).
+//
+//Performance：Timed by omp_get_wtime(), switch threads via OMP_NUM_THREADS=1/8.
+//
+//Output：Initial/final states ('O' alive, '.' dead), thread count and execution time.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <omp.h>
-#define N 50
-#define ITER 100
+#define N 1000     // 增大网格到 1000x1000
+#define ITER 1000  // 增加迭代到 1000次
+
 
 // Count the number of surviving neighbours around the cell
 static inline int alive(int x, int y, char G[N][N]) {
