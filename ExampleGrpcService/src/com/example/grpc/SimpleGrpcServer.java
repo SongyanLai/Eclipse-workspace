@@ -1,4 +1,5 @@
 package com.example.grpc;
+
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import io.grpc.stub.StreamObserver;
@@ -14,16 +15,16 @@ public class SimpleGrpcServer {
         System.out.println("Server Started");
         server.awaitTermination();
     }
-}
 
-class GreetingServiceImpl extends GreetingServiceGrpc.GreetingServiceImplBase {
-    @Override
-    public void greet(HelloRequest request, StreamObserver<HelloResponse> responseObserver) {
-        System.out.println("Incoming request: " + request);
-        HelloResponse response = HelloResponse.newBuilder()
-                .setGreeting("Hello " + request.getFirstname())
-                .build();
-        responseObserver.onNext(response);
-        responseObserver.onCompleted();
+    static class GreetingServiceImpl extends GreetingServiceGrpc.GreetingServiceImplBase {
+        @Override
+        public void greet(HelloRequest request, StreamObserver<HelloResponse> responseObserver) {
+            System.out.println("Incoming request: " + request);
+            HelloResponse response = HelloResponse.newBuilder()
+                    .setGreeting("Hello " + request.getFirstname())
+                    .build();
+            responseObserver.onNext(response);
+            responseObserver.onCompleted();
+        }
     }
 }

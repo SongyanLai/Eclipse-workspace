@@ -4,9 +4,9 @@
 		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1" value="325"/>
 		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2" value="674"/>
 		<item key="org.eclipse.debug.ui.EXPANDED_NODES" value="org.eclipse.jdt.launching.localJavaApplication, org.eclipse.cdt.launch.applicationLaunchType, org.eclipse.debug.core.groups.GroupLaunchConfigurationType, "/>
-		<item key="DIALOG_WIDTH" value="1136"/>
-		<item key="DIALOG_HEIGHT" value="702"/>
-		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|Microsoft YaHei UI"/>
+		<item key="DIALOG_WIDTH" value="1393"/>
+		<item key="DIALOG_HEIGHT" value="952"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
 	<section name="org.eclipse.debug.ui.SCOPED_SAVE_SELECTION_DIALOG">
 		<item key="DIALOG_WIDTH" value="304"/>
@@ -18,7 +18,7 @@
 		<item key="DIALOG_Y_ORIGIN" value="34"/>
 		<item key="DIALOG_WIDTH" value="398"/>
 		<item key="DIALOG_HEIGHT" value="663"/>
-		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|Microsoft YaHei UI"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
 	<section name="org.eclipse.debug.ui.SELECT_LAUNCH_SHORTCUT_DIALOG">
 		<item key="DIALOG_WIDTH" value="270"/>
@@ -27,8 +27,8 @@
 	</section>
 	<section name="org.eclipse.debug.ui.SINGLE_LAUNCH_CONFIGURATION_DIALOG_SECTION">
 		<item key="DIALOG_WIDTH" value="770"/>
-		<item key="DIALOG_HEIGHT" value="702"/>
-		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|Microsoft YaHei UI"/>
+		<item key="DIALOG_HEIGHT" value="757"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
 	<section name="org.eclipse.debug.ui.SELECT_LAUNCH_CONFIGURATION_DIALOG">
 		<item key="DIALOG_WIDTH" value="270"/>

@@ -38,6 +38,8 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="channel"/>
+			<item value="ExampleGrpcService"/>
 			<item value="ENFLD"/>
 		</list>
 	</section>
